@@ -1,0 +1,24 @@
+package inheritance01;
+
+public class Driver03 {
+
+    public static void main(String[] args) {
+
+        동물[] animals = new 동물[7];
+
+        animals[0] = new 동물();
+        animals[1] = new 펭귄();
+        animals[2] = new 포유류();
+        animals[3] = new 고래();
+        animals[4] = new 조류();
+        animals[5] = new 참새();
+        animals[6] = new 박쥐();
+
+        for(int i = 0; i<animals.length; i++) {
+            animals[i].showMe();
+        }
+
+
+
+    }
+}
